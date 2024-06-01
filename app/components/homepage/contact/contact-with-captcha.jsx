@@ -127,10 +127,12 @@ function ContactWithCaptcha() {
               value={input.message}
             />
           </div>
+          <div className='flex item-center  justify-center'>
           <ReCAPTCHA
             sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
             onChange={(code) => setCaptcha(code)}
           />
+          </div>
           <div className="flex flex-col items-center gap-2">
             {error.required &&
               <p className="text-sm text-red-400">
