@@ -3,7 +3,7 @@
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
 import AnimationLottie from "../../helper/animation-lottie";
-import lottieFile from '/public/lottie/profile1.json';
+import lottieFile from '/public/lottie/profile2.json';
 function AboutSection() {
   return (
     <div id="about" className="my-12 lg:my-16 relative">
